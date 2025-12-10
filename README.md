@@ -43,7 +43,7 @@ You don't need Python installed.
 ( Works only with installed [Python](https://www.python.org/downloads/) ) 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dIMONSTERIb/TheCatGame.git
+   git clone https://github.com/S-Lebedew/TheCatGame.git
    
    cd TheCatGame
    ```
