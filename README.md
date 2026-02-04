@@ -69,6 +69,7 @@ You don't need Python installed.
    ```
 ---   
 ### Project Structure
- - `CatGame_V1.exe` - Ready-to-play game file
+ - `CatGame.exe` - Ready-to-play game file
  - `CatGame.py` - Source code
  - `textures/` - Game assets (images, icons)
+ - `Dockerfile` - Container configuration
