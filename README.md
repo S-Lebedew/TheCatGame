@@ -51,6 +51,22 @@ You don't need Python installed.
    ```bash
    python CatGame.py
    ```
+   
+### Option 3: Run with Docker (Linux / WSL2)
+1. Build the image:
+   ```bash
+   docker build -t cat-game-image .
+   ```
+   
+2. Run the container (with X11/GUI passthrough):
+   ```bash
+   docker run -it --rm \
+    --net=host \
+    -e DISPLAY=$DISPLAY \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v /mnt/wslg:/mnt/wslg \
+    cat-game-image
+   ```
 ---   
 ### Project Structure
  - `CatGame_V1.exe` - Ready-to-play game file
